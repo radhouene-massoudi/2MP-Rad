@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from '../model/product';
 
 @Component({
   selector: 'app-products',
@@ -6,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent {
-produtcs=[{'id':1,'name':'pc1', 'quantity':3},
-  {'id':2,'name':'pc2', 'quantity':3},
-  {'id':3,'name':'pc3', 'quantity':3}
+produtcs:Product[]=[{'id':1,'name':'pc1', 'Quantity':3},
+  {'id':2,'name':'pc2', 'Quantity':3},
+  {'id':3,'name':'pc3', 'Quantity':3}
 ]
 }

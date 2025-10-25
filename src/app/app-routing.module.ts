@@ -8,6 +8,7 @@ import { DetailComponent } from './detail/detail.component';
 import { ProductsComponent } from './products/products.component';
 
 const r: Routes = [
+  {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'home',component:HomeComponent},
   {path:'detail/:id',component:DetailComponent},
     {path:'products',component:ProductsComponent},
