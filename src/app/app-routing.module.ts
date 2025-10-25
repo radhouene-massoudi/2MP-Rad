@@ -1,10 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { FirstcComponent } from './firstc/firstc.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { HomeComponent } from './home/home.component';
+import { DetailComponent } from './detail/detail.component';
+import { ProductsComponent } from './products/products.component';
 
-const routes: Routes = [];
+const r: Routes = [
+  {path:'home',component:HomeComponent},
+  {path:'detail/:id',component:DetailComponent},
+    {path:'products',component:ProductsComponent},
+  {path:'login',component:LoginComponent},
+  {path:'first',component:FirstcComponent},
+  {path:'**',component:NotfoundComponent},
+  
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(r)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
