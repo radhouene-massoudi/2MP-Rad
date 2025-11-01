@@ -13,7 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { DetailComponent } from './detail/detail.component';
-
+import { UsersComponent } from './users/users.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +26,14 @@ import { DetailComponent } from './detail/detail.component';
     HomeComponent,
     ProductComponent,
     ProductsComponent,
-    DetailComponent
+    DetailComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

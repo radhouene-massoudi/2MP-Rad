@@ -6,10 +6,12 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
 import { ProductsComponent } from './products/products.component';
+import { UsersComponent } from './users/users.component';
 
 const r: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'home',component:HomeComponent},
+  {path:'user',component:UsersComponent},
   {path:'detail/:id',component:DetailComponent},
     {path:'products',component:ProductsComponent},
   {path:'login',component:LoginComponent},

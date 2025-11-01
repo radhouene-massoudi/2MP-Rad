@@ -13,6 +13,17 @@ pattern
     </div>
 </div>
 <label >pwd</label>
-<input type="text" name="pwd" ngModel>
+<input type="text" name="pwd" ngModel #pwd="ngModel" required minlength="6" pattern="^[A-Z].*[!@]">
+<div *ngIf="pwd.invalid">
+    <div *ngIf="pwd.errors?.['required']">
+required
+    </div>
+  <div *ngIf="pwd.errors?.['minlength']">
+minlength
+    </div>
+    <div *ngIf="pwd.errors?.['pattern']">
+pattern
+    </div>
+</div>
 <input type="submit"  value="login" (click)="showF(t)" [disabled]="login.invalid">
 </form>

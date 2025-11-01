@@ -1,0 +1,16 @@
+{
+    "users":[
+        {
+            "name":"mohamed",
+            "pwd":12344
+        },
+         {
+            "name":"mohamed1",
+            "pwd":12344
+        },
+         {
+            "name":"mohamed2",
+            "pwd":12344
+        }
+    ]
+}
