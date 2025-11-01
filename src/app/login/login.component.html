@@ -1,1 +1,18 @@
-<p>login works!</p>
+<form #login="ngForm">
+<label >name</label>
+<input type="text" name="nom"  ngModel required minlength="3" #t="ngModel" pattern="[A-Z]*">
+<div *ngIf="t.invalid">
+    <div *ngIf="t.errors?.['required']">
+required
+    </div>
+  <div *ngIf="t.errors?.['minlength']">
+minlength
+    </div>
+    <div *ngIf="t.errors?.['pattern']">
+pattern
+    </div>
+</div>
+<label >pwd</label>
+<input type="text" name="pwd" ngModel>
+<input type="submit"  value="login" (click)="showF(t)" [disabled]="login.invalid">
+</form>
