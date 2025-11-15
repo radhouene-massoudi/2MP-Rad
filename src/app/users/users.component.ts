@@ -7,12 +7,14 @@ import { UsersService } from '../serviceUser/users.service';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent {
+  users:any;
 constructor(private s:UsersService){
 
 }
 ngOnInit(){
   this.s.listeUser().subscribe(
     (l)=>{
+      this.users=l
       console.log(l)
     }
   )

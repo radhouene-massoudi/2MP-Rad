@@ -1,16 +1,39 @@
 {
-    "users":[
-        {
-            "name":"mohamed",
-            "pwd":12344
-        },
-         {
-            "name":"mohamed1",
-            "pwd":12344
-        },
-         {
-            "name":"mohamed2",
-            "pwd":12344
-        }
-    ]
+  "users": [
+    {
+      "id": 3,
+      "name": "mohamed2",
+      "pwd": 12344
+    },
+    {
+      "id": 2,
+      "name": "mohamed2",
+      "pwd": 12344
+    },
+    {
+      "id": 1,
+      "name": "mohamed2",
+      "pwd": 12344
+    },
+    {
+      "name": "Mechelle Barr",
+      "pwd": "Veniam adipisci rer",
+      "id": 4
+    },
+    {
+      "name": "Lacey Kemp",
+      "pwd": "Consequatur Dolore ",
+      "id": 5
+    },
+    {
+      "name": "Nehru Holloway",
+      "pwd": "Laboris sunt rerum s",
+      "id": 6
+    },
+    {
+      "name": "Kaitlin Huffman",
+      "pwd": "Debitis incidunt na",
+      "id": 7
+    }
+  ]
 }

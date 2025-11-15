@@ -15,6 +15,8 @@ import { ProductsComponent } from './products/products.component';
 import { DetailComponent } from './detail/detail.component';
 import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RemoveuserComponent } from './removeuser/removeuser.component';
+import { AdduserComponent } from './adduser/adduser.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProductComponent,
     ProductsComponent,
     DetailComponent,
-    UsersComponent
+    UsersComponent,
+    RemoveuserComponent,
+    AdduserComponent
   ],
   imports: [
     BrowserModule,

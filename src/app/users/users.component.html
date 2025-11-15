@@ -1,1 +1,7 @@
 <p>users works!</p>
+<div *ngFor="let user of users">
+{{user.name}}
+{{user.pwd}}
+<a [routerLink]="['/remove/',user.id]">remove</a>
+</div>
+<a routerLink="/add">add user</a>

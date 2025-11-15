@@ -11,4 +11,10 @@ export class UsersService {
   listeUser(){
     return this.http.get("http://localhost:3000/users")
   }
+  removeUser(idOfUser:any){
+return this.http.delete("http://localhost:3000/users/"+idOfUser)
+  }
+  addUser(data:any){
+  return  this.http.post("http://localhost:3000/users/",data)
+  }
 }
