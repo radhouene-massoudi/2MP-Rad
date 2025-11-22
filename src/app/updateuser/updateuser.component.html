@@ -1,0 +1,8 @@
+<form #f="ngForm">
+    <label>name</label>
+    <input type="text" name="name" ngModel [(ngModel)]="user.name">
+    <label>pwd</label>
+      <input type="text" name="pwd" ngModel [(ngModel)]="user.pwd">
+        <input type="submit" value="send data" (click)="updateUserF(f.value)">
+</form>
+

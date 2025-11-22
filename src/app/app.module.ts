@@ -17,6 +17,8 @@ import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RemoveuserComponent } from './removeuser/removeuser.component';
 import { AdduserComponent } from './adduser/adduser.component';
+import { UpdateuserComponent } from './updateuser/updateuser.component';
+import { Notfound404Component } from './notfound404/notfound404.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,9 @@ import { AdduserComponent } from './adduser/adduser.component';
     DetailComponent,
     UsersComponent,
     RemoveuserComponent,
-    AdduserComponent
+    AdduserComponent,
+    UpdateuserComponent,
+    Notfound404Component
   ],
   imports: [
     BrowserModule,
