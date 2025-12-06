@@ -35,5 +35,43 @@
       "pwd": "Debitis incidunt na",
       "id": 7
     }
-  ]
+  ],
+  "product": [
+    {
+      "name": "Madeson Sellers",
+      "desc": "Cupiditate quis amet",
+      "price": "357",
+      "cat": "In voluptas voluptat",
+      "id": 1
+    },
+    {
+      "name": "ISIGK",
+      "desc": "Est non laudantium",
+      "price": "634",
+      "cat": "Enim non ducimus pa",
+      "id": 2
+    },
+    {
+      "name": "Clayton Mann",
+      "desc": "Iste deleniti quis d",
+      "price": "234",
+      "cat": "Rem culpa et sint ",
+      "id": 3
+    },
+    {
+      "name": "Micah Cole",
+      "desc": "Sequi aliquid unde m",
+      "price": "730",
+      "cat": "Autem ipsum volupta",
+      "id": 4
+    },
+    {
+      "name": "testttttttttttttttttttt",
+      "desc": "Dolore occaecat dict",
+      "price": "943",
+      "cat": "Adipisci aut enim sa",
+      "id": 5
+    }
+  ],
+  "cat": []
 }

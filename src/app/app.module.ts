@@ -19,6 +19,10 @@ import { RemoveuserComponent } from './removeuser/removeuser.component';
 import { AdduserComponent } from './adduser/adduser.component';
 import { UpdateuserComponent } from './updateuser/updateuser.component';
 import { Notfound404Component } from './notfound404/notfound404.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { UpdateproductComponent } from './updateproduct/updateproduct.component';
+import { RemoveproductComponent } from './removeproduct/removeproduct.component';
+import { ShowproductsComponent } from './showproducts/showproducts.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +39,11 @@ import { Notfound404Component } from './notfound404/notfound404.component';
     RemoveuserComponent,
     AdduserComponent,
     UpdateuserComponent,
-    Notfound404Component
+    Notfound404Component,
+    AddProductComponent,
+    UpdateproductComponent,
+    RemoveproductComponent,
+    ShowproductsComponent
   ],
   imports: [
     BrowserModule,

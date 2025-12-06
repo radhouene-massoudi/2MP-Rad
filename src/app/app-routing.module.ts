@@ -11,10 +11,18 @@ import { RemoveuserComponent } from './removeuser/removeuser.component';
 import { AdduserComponent } from './adduser/adduser.component';
 import { UpdateuserComponent } from './updateuser/updateuser.component';
 import { Notfound404Component } from './notfound404/notfound404.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { UpdateproductComponent } from './updateproduct/updateproduct.component';
+import { RemoveproductComponent } from './removeproduct/removeproduct.component';
+import { ShowproductsComponent } from './showproducts/showproducts.component';
 
 const r: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'home',component:HomeComponent},
+    {path:'addp',component:AddProductComponent},
+      {path:'u/:id',component:UpdateproductComponent},
+      {path:'r/:idofdelete',component:RemoveproductComponent},
+      {path:'listp',component:ShowproductsComponent},
     {path:'add',component:AdduserComponent},
   {path:'user',component:UsersComponent},
    {path:'update/:t',component:UpdateuserComponent},

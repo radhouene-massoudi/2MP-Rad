@@ -1,0 +1,12 @@
+<form #t="ngForm">
+    <label>nom</label>
+    <input type="text" name="name" ngModel [(ngModel)]="product.name">
+    <label>description</label>
+     <input type="text" name="desc" ngModel [(ngModel)]="product.desc">
+    <label>price</label>
+     <input type="text" name="price" ngModel [(ngModel)]="product.price">
+    <label>cat</label>
+     <input type="text" name="cat" ngModel [(ngModel)]="product.cat">
+      <input type="submit" value="update" (click)="updateproduit(t.value)">
+
+</form>
